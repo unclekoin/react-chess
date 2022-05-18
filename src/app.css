@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: calc(4rem * 8);
+    height: calc(4rem * 8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    background-color: #d1b688;
+}
+
+.black {
+    background-color: #06749a;
+}
