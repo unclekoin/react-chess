@@ -27,10 +27,21 @@
     align-items: center;
 }
 
+.cell img {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
 .white {
-    background-color: #f4f1de;
+    background-color: #c7c4b5;
 }
 
 .black {
-    background-color: #3d405b;
+    background-color: #64657a;
+}
+
+.selected {
+    background-color: #c44569;
 }
