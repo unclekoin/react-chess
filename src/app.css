@@ -35,13 +35,20 @@
 }
 
 .white {
-    background-color: #c7c4b5;
+    background-color: #f7d794;
 }
 
 .black {
-    background-color: #64657a;
+    background-color: #596275;
 }
 
 .selected {
     background-color: #c44569;
+}
+
+.available {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #3dc1d3;
 }
