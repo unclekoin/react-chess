@@ -52,3 +52,19 @@
     border-radius: 50%;
     background-color: #3dc1d3;
 }
+
+.lost {
+    height: calc(50vh - 60px);
+    margin-left: 50px;
+    padding: 30px;
+    background-color: #dcdde1;
+}
+
+.lost:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.lost img {
+    width: 20px;
+    height: 20px;
+}
